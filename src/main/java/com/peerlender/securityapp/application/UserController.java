@@ -1,7 +1,7 @@
 package com.peerlender.securityapp.application;
 
-import com.peerlender.securityapp.user.exception.UserNotFoundException;
-import com.peerlender.securityapp.user.model.repository.UserRepository;
+import com.peerlender.securityapp.domain.exception.UserNotFoundException;
+import com.peerlender.securityapp.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;

@@ -1,7 +1,7 @@
 package com.peerlender.securityapp;
 
-import com.peerlender.securityapp.user.model.User;
-import com.peerlender.securityapp.user.model.repository.UserRepository;
+import com.peerlender.securityapp.domain.model.User;
+import com.peerlender.securityapp.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.peerlender.securityapp.user.model;
+package com.peerlender.securityapp.domain.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
